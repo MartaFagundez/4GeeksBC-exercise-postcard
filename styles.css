@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+	min-height: 10px;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 2rem;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	margin: 0;
+	font-weight: 600;
+}
+
+.postcard-body {
+	display: flex;
+	margin-top: 0.75rem;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: solid 1px grey;
+	margin-top: 1rem;
+}
+
+p {
+	font-size: 14px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: hsl(0, 0%, 83%);
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin: 0.75rem;
+}
+
+button:hover {
+	background-color: hsl(0, 0%, 90%);
+}
